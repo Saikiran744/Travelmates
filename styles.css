@@ -190,31 +190,7 @@ header nav ul li a:hover {
 }
 
 /* Sign Up Section */
-/* Form Styling */
-/*form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px; /* Increased gap for more spacing */
-    width: 100%; /* Ensures the form takes full width on smaller screens */
-}
 
-/*input {
-    padding: 15px; /* Increase padding for better touch experience */
-    width: 90%; /* Increased width */
-    max-width: 450px; /* Max width for larger screens */
-    border: 2px solid #4CAF50;
-    border-radius: 8px; /* More rounded corners for a modern look */
-    font-size: 18px; /* Larger font size */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add slight shadow for depth */
-    transition: all 0.3s ease; /* Smooth hover transition */
-}
-
-/*input:focus {
-    border-color: #3aafa9; /* Change border color on focus */
-    outline: none;
-    box-shadow: 0 0 8px rgba(58, 175, 169, 0.5); /* Light glowing effect */
-}*/
 .input-box {
   position: relative;
   margin-bottom: 20px;
