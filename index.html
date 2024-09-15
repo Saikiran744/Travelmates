@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="Travel Mates is your ultimate travel companion, helping you find like-minded travel buddies and plan amazing trips together."> 
+  <title>Travel Buddy - Your Ultimate Travel Companion</title> 
+  <link rel="stylesheet" href="styles.css"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo">Travel Mates</h1> 
+    <nav> 
+     <ul> 
+      <li><a href="#hero">Home</a></li> 
+      <li><a href="#features">Features</a></li> 
+      <li><a href="#about">About</a></li> 
+      <li><a href="#signup">Sign Up</a></li> 
+      <li><a href="#contact">Contact</a></li> 
+     </ul> 
+    </nav> 
+   </div> 
+  </header> 
+  <section id="hero"> 
+   <div class="container"> 
+    <h2>Your Ultimate Travel Companion</h2> 
+    <p>Connect with like-minded travelers, plan trips together, and explore the world with ease.</p> <a href="#signup" class="cta-btn">Join Now</a> 
+   </div> 
+  </section> 
+  <section id="features"> 
+   <div class="container"> 
+    <h2>Our Features</h2> 
+    <div class="feature-grid"> 
+     <div class="feature-item"> 
+      <h3>Traveler Matching</h3> 
+      <p>Find travel buddies who share your interests and travel style.</p> 
+     </div> 
+     <div class="feature-item"> 
+      <h3>Trip Planning</h3> 
+      <p>Collaborate on itineraries, book activities, and share costs easily.</p> 
+     </div> 
+     <div class="feature-item"> 
+      <h3>Secure Connections</h3> 
+      <p>Connect with verified travelers and ensure your journey is safe and enjoyable.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="about"> 
+   <div class="container"> 
+    <h2>About Travel Mates</h2> 
+    <p>Travel Mates is your go-to platform for finding travel companions and making every journey more enjoyable. We believe that travel is more fun and fulfilling when shared with like-minded people. Whether you're looking to explore new destinations or simply want to meet new friends along the way, Travel Buddy is here to connect you with the perfect travel partners.</p> 
+   </div> 
+  </section> 
+  <section id="signup"> 
+   <div class="container"> 
+    <h2>Sign Up for Free</h2> 
+    <p>Ready to start your next adventure? Sign up below!</p> 
+    <form action="https://api.web3forms.com/submit"
+      method="POST"
+      >
+        <input type="hidden"
+        name="access_key"
+        value="7b13109d-2a21-40b8-b2c1-a8477397b1e7"
+        />
+        <div class="input-box">
+          <input type="text" name="name" required placeholder=" " />
+          <label>Name</label>
+        </div>
+
+        <div class="input-box">
+          <input type="email" name="email" required placeholder=" " />
+          <label>Email</label>
+        </div> <button type="submit" class="cta-btn-signup">Sign Up Now</button> 
+    </form> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="container"> 
+    <h2>Contact Us</h2> 
+    <p>Email us at <a href="mailto:support@travelbuddy.com">support@travelbuddy.com</a></p> 
+    <div class="social-icons"> <a href="https://www.facebook.com"><img src="facebook-icon.png" alt="Facebook"></a> <a href="https://www.instagram.com"><img src="instagram-icon.png" alt="Instagram"></a> 
+    </div> 
+    <p>© 2024 Travel Buddy. All rights reserved. <a href="privacy.html">Privacy Policy</a></p> 
+   </div> 
+  </footer> 
+  <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    
+    </script> 
+ </body>
+</html>
