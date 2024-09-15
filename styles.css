@@ -191,7 +191,7 @@ header nav ul li a:hover {
 
 /* Sign Up Section */
 /* Form Styling */
-form {
+/*form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,7 +199,7 @@ form {
     width: 100%; /* Ensures the form takes full width on smaller screens */
 }
 
-input {
+/*input {
     padding: 15px; /* Increase padding for better touch experience */
     width: 90%; /* Increased width */
     max-width: 450px; /* Max width for larger screens */
@@ -210,12 +210,62 @@ input {
     transition: all 0.3s ease; /* Smooth hover transition */
 }
 
-input:focus {
+/*input:focus {
     border-color: #3aafa9; /* Change border color on focus */
     outline: none;
     box-shadow: 0 0 8px rgba(58, 175, 169, 0.5); /* Light glowing effect */
+}*/
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
+.input-box input,
+.input-box textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background: none;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  color: #999;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:not(:placeholder-shown) ~ label,
+.input-box textarea:focus ~ label,
+.input-box textarea:not(:placeholder-shown) ~ label {
+  top: -10px;
+  left: 15px;
+  color: #4CAF50;
+  font-size: 12px;
+  background: #fff;
+  padding: 0 5px;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+  border-color: #3aafa9;
+  outline: none;
+  box-shadow: 0 0 8px rgba(58, 175, 169, 0.5);
+}
+
+/* Message Textarea Styling */
+.input-box textarea {
+  height: auto;
+  resize: none; /* Prevents the user from resizing the textarea */
+    }
 /* Button Styling */
 .cta-btn-signup {
     background-color: #28a745; /* Green color */
